@@ -19,7 +19,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #ffccaf;
 }
 
 .error {
@@ -48,4 +48,8 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+img {
+  margin-top: 20px;
 }
