@@ -8,7 +8,7 @@ With this app you can track your spending and saving, close it out, forget about
 * Deployed app on Heroku: [https://calm-anchorage-17785.herokuapp.com/](https://calm-anchorage-17785.herokuapp.com/)
 * Repository: [https://github.com/coryjquirk/bud-get](https://github.com/coryjquirk/bud-get)
 ### Demo
-* coming soon
+<img src="bud-get.gif" alt="app demo">
 
 ## Usage
 * Run in your web browser or download the application to your phone
