@@ -49,7 +49,17 @@ tr:nth-child(even) {
   width: 90%;
   margin: 0 auto;
 }
-
+footer p{
+  font-size: small;
+  text-align: left;
+  color: #757575;
+}
+#footHero{
+  width: 100%;
+  transition: height 2s;
+}
+#footHero:hover {
+}
 img {
   margin-top: 20px;
 }
