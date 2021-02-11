@@ -11,41 +11,44 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="manifest" href="/manifest.webmanifest">
 
-  <title>Bud-Get</title>
+  <title>Time sheet</title>
 </head>
 <body>
   <div class="wrapper">
-    <h3>Spend today, save tomorrow</h3>
+    <h3>Work hours tracker</h3>
     <div class="total">
-      <div class="total">Your total is: $<span id="total">0</span></div>
+      <div class="total">Hours total: <span id="total">0</span></div>
     </div>
 
     <div class="form">
-      <input type="text" id="t-name" placeholder="Name of transaction" />
-      <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
-      <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
-      <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
+      <p><strong>timein/timeout:</strong> please use a whole number 0 to 24</p>
+      <input type="text" id="t-name" placeholder="Shift notes" />
+      <input type="number" min="0" max="24" id="t-timein" placeholder="timein" />
+      <input type="number" min="0" max="24" id="t-timeout" placeholder="timeout" />
+      <button id="add-btn"><i class="fa fa-plus buttons"></i> Add hours</button>
+      <!-- <button id="sub-btn"><i class="fa fa-minus"></i> Subtract hours</button> -->
       <p class="error"></p>
     </div>
 
     <div class="transactions">
       <table>
         <thead>
-          <th>Transaction</th>
-          <th>Amount</th>
+          <th>Date</th>
+          <th>Note</th>
+          <th>Time in</th>
+          <th>Time out</th>
+          <th>Hours</th>
         </thead>
         <tbody id="tbody">
-          
+          <tr>Enter your time</tr>
         </tbody>
       </table>
     </div>
     
     <canvas id="myChart"></canvas>
-    <img id="footHero" src="footer.jpg">
     
     <footer>
-      <p>image by <a href="https://unsplash.com/@pawel_czerwinski">@Paweł Czerwiński</a></p>
-      <p>page by <a href="https://www.github.com/coryjquirk">Cory J. Quirk</a></p>
+      <p>page by <a href="https://www.github.com/coryjquirk/bud-get">Cory J. Quirk</a></p>
     </footer>
   </div>
   
